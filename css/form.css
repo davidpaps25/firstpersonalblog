@@ -1,10 +1,21 @@
-form#blog-form {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    margin: 0 auto;
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
 }
 
-form > * {
-    
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 10px;
 }
